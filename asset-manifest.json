@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/smarmakescomics/static/css/main.d1b05096.chunk.css",
+    "main.js": "/smarmakescomics/static/js/main.5b6bba96.chunk.js",
+    "main.js.map": "/smarmakescomics/static/js/main.5b6bba96.chunk.js.map",
+    "runtime-main.js": "/smarmakescomics/static/js/runtime-main.93ee5ae2.js",
+    "runtime-main.js.map": "/smarmakescomics/static/js/runtime-main.93ee5ae2.js.map",
+    "static/js/2.fff1325c.chunk.js": "/smarmakescomics/static/js/2.fff1325c.chunk.js",
+    "static/js/2.fff1325c.chunk.js.map": "/smarmakescomics/static/js/2.fff1325c.chunk.js.map",
+    "index.html": "/smarmakescomics/index.html",
+    "precache-manifest.f7044b8e2504e3a8d53bdb821483e4f6.js": "/smarmakescomics/precache-manifest.f7044b8e2504e3a8d53bdb821483e4f6.js",
+    "service-worker.js": "/smarmakescomics/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/smarmakescomics/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.fff1325c.chunk.js.LICENSE": "/smarmakescomics/static/js/2.fff1325c.chunk.js.LICENSE",
+    "static/media/logo.svg": "/smarmakescomics/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93ee5ae2.js",
+    "static/js/2.fff1325c.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.5b6bba96.chunk.js"
+  ]
+}
