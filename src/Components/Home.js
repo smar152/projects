@@ -7,7 +7,7 @@ function Home(props) {
       <h1> My Projects</h1>
       <ul>
         <li>
-          <Link to="/freecodecamp1">Εδω το καλο προτζεκτ</Link>
+          <Link to="/project1">Εδω το καλο προτζεκτ</Link>
         </li>
       </ul>
     </div>
