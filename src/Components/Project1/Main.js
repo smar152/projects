@@ -5,7 +5,7 @@ const Main = props => (
     <header id="header">
       <nav className="navbar fixed-top bg-dark">
         <div class="nav-item">
-          <a href="#features" className="nav-link text-light">
+          <a href="#features" className="nav-link">
             Features
           </a>
         </div>
@@ -25,6 +25,7 @@ const Main = props => (
     <main className="container">
       <div id="logo">
         <img
+          className="mw-100"
           id="header-img"
           src="https://www.gopresto.com/i/1525439629236/n/images/presto-logo2.png"
           alt="Presto Logo"
@@ -34,6 +35,7 @@ const Main = props => (
       <img
         src="https://imgix.bustle.com/uploads/image/2018/5/22/864631f4-77d7-44a6-8093-2771da573f63-wafflemaker.jpeg?w=500&h=365&fit=crop&crop=faces&auto=format&q=70"
         alt="amazing waffle maker"
+        className="mw-100"
       />
 
       <div id="features">
@@ -52,6 +54,7 @@ const Main = props => (
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
+          className="mw-100"
         ></iframe>
       </div>
 
