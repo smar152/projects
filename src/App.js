@@ -6,19 +6,16 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      ενα πραμα
-      <Router basename="projects">
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/freecodecamp1">
-            <FreeCodeCamp1 />
-          </Route>
-        </Switch>
-      </Router>
-    </div>
+    <Router basename="projects">
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/freecodecamp1">
+          <FreeCodeCamp1 />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
