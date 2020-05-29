@@ -12,6 +12,9 @@ function Home(props) {
         <li>
           <Link to="/brackets">Εδω το καλο κομπάηλερ</Link>
         </li>
+        <li>
+          <Link to="/waffleBowlMaker">Εδω οι καλές βάφλες</Link>
+        </li>
       </ul>
     </div>
   );

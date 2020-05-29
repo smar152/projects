@@ -1,0 +1,52 @@
+@media screen and (max-width: 450px) {
+  body {
+    background: red;
+  }
+}
+
+.bigAssTitle {
+  /*font-size: 180px;*/
+  margin: 5px;
+  font-size: calc(2em + 7vw);
+  text-align: center;
+}
+
+h2 {
+  display: inline;
+  color: hsl(35, 100%, 74%);
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+}
+
+#how-it-works {
+  background-color: hsl(35, 100%, 74%);
+  padding-bottom: 40px;
+}
+
+.image100 {
+  max-width: 100%;
+}
+
+#nav-bar li {
+  background-color: hsl(35, 100%, 74%);
+  display: inline;
+  margin-left: 10px;
+  padding-top: 12px;
+  border-radius: 25px;
+}
+
+#nav-bar li a {
+  color: black;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  /*position: fixed;*/
+  z-index: 10;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  /*background: hsl(0, 80%, 70%);*/
+}
