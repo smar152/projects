@@ -51,9 +51,8 @@ class WaffleBowlMaker extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 img100">
+            <div className="col-md-6">
               <img
-                className=""
                 src="https://www.savvysavingcouple.net/wp-content/uploads/2019/06/Waffle-cone-cup-fruit-snacks-1.jpg"
                 alt="amazing waffle maker, img credit savvy saving couple"
               />
@@ -81,6 +80,13 @@ class WaffleBowlMaker extends Component {
           <div className="row">
             {this.state.waffles.pricing.map((waffle) => (
               <div className="priceBox text-center col-4 mb-2">
+                <img
+                  src={waffle.iconSrc}
+                  onMouseOver={(e) =>
+                    (e.currentTarget.src = waffle.iconWhiteSrc)
+                  }
+                  onMouseOut={(e) => (e.currentTarget.src = waffle.iconSrc)}
+                ></img>
                 <h5>{waffle.title}</h5>
                 <p>{waffle.description}</p>
                 <h6>{waffle.included}</h6>
