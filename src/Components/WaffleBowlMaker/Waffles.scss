@@ -1,3 +1,6 @@
+$pertikali: hsl(35, 100%, 74%);
+$kookkino: hsl(271, 27%, 53%);
+
 @media screen and (max-width: 450px) {
   body {
     background: red;
@@ -13,14 +16,14 @@
 
 h2 {
   display: inline;
-  color: hsl(35, 100%, 74%);
+  color: $pertikali;
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 30px;
 }
 
-#how-it-works {
-  background-color: hsl(35, 100%, 74%);
+.how-it-works {
+  background-color: $pertikali;
   padding-bottom: 40px;
 }
 
@@ -28,25 +31,48 @@ h2 {
   max-width: 100%;
 }
 
-#nav-bar li {
-  background-color: hsl(35, 100%, 74%);
+.nav-bar li {
+  background-color: $pertikali;
   display: inline;
   margin-left: 10px;
   padding-top: 12px;
   border-radius: 25px;
 }
 
-#nav-bar li a {
+.nav-bar li a {
   color: black;
 }
 
-#nav-bar {
+.nav-bar {
   display: flex;
   flex-direction: row;
-  /*position: fixed;*/
   z-index: 10;
   top: 0;
   height: 50px;
-  width: 100%;
-  /*background: hsl(0, 80%, 70%);*/
+}
+
+.how-it-works h2 {
+  color: white;
+}
+
+.newsletter {
+  background-color: $pertikali;
+}
+
+.priceBox {
+  height: 300px;
+
+  h6,
+  h3 {
+    color: $pertikali;
+  }
+}
+
+.priceBox:hover {
+  background-color: $pertikali;
+
+  h6,
+  h3 {
+    color: white;
+  }
 }
