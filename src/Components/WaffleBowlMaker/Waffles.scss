@@ -1,14 +1,6 @@
 $pertikali: hsl(35, 100%, 74%);
-$kookkino: hsl(271, 27%, 53%);
 
-@media screen and (max-width: 450px) {
-  body {
-    background: red;
-  }
-}
-
-.bigAssTitle {
-  /*font-size: 180px;*/
+.bigTitle {
   margin: 5px;
   font-size: calc(2em + 7vw);
   text-align: center;
@@ -28,7 +20,7 @@ h2 {
 }
 
 .image100 {
-  max-width: 100%;
+  max-width: 570px;
 }
 
 .nav-bar li {
@@ -60,7 +52,7 @@ h2 {
 }
 
 .priceBox {
-  height: 300px;
+  //height: 300px;
 
   h6,
   h3 {

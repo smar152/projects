@@ -28,34 +28,37 @@ class WaffleBowlMaker extends Component {
           </nav>
         </header>
 
-        <div className="row">
-          <div className="col-md-6">
-            <h1 className="bigAssTitle">Waffle. Bowl. Maker.</h1>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <h1 className="bigTitle">Waffle. Bowl. Maker.</h1>
 
-            <div className="container">
-              <h2 className="row">Features</h2>
-              <div className="row">
-                <p className="col">
-                  <h4>Waffle</h4> Like, you've probably seen a waffle. It's a
-                  kind of food that is nice to eat.
-                </p>
-                <p className="col">
-                  <h4>Bowl</h4> Bowls are convenient for holding food. Now
-                  imagine the bowl is edible as well.
-                </p>
-                <p className="col">
-                  <h4>Maker</h4> A device that can make something. Something
-                  refers to a waffle bowl in this instance.
-                </p>
+              <div className="container">
+                <h2 className="row">Features</h2>
+                <div className="row">
+                  <p className="col">
+                    <h4>Waffle</h4> Like, you've probably seen a waffle. It's a
+                    kind of food that is nice to eat.
+                  </p>
+                  <p className="col">
+                    <h4>Bowl</h4> Bowls are convenient for holding food. Now
+                    imagine the bowl is edible as well.
+                  </p>
+                  <p className="col">
+                    <h4>Maker</h4> A device that can make something. Something
+                    refers to a waffle bowl in this instance.
+                  </p>
+                </div>
               </div>
             </div>
+            <div className="col-md-6 img100">
+              <img
+                className=""
+                src="https://www.savvysavingcouple.net/wp-content/uploads/2019/06/Waffle-cone-cup-fruit-snacks-1.jpg"
+                alt="amazing waffle maker, img credit savvy saving couple"
+              />
+            </div>
           </div>
-          <img
-            className="col-md-6 image100"
-            //src="https://imgix.bustle.com/uploads/image/2018/5/22/864631f4-77d7-44a6-8093-2771da573f63-wafflemaker.jpeg?w=500&h=365&fit=crop&crop=faces&auto=format&q=70"
-            src="https://www.savvysavingcouple.net/wp-content/uploads/2019/06/Waffle-cone-cup-fruit-snacks-1.jpg"
-            alt="amazing waffle maker, img credit savvy saving couple"
-          />
         </div>
 
         <div className="how-it-works container">

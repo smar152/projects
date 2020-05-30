@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import Home from "./Components/Home";
 import Project1 from "./Components/Project1/Main";
 import Brackets from "./Components/Brackets/Brackets";
