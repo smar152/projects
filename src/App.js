@@ -1,11 +1,12 @@
-import React from "react";
-import Home from "./Components/Home";
-import Project1 from "./Components/Project1/Main";
-import Brackets from "./Components/Brackets/Brackets";
-import WaffleBowlMaker from "./Components/WaffleBowlMaker/WaffleBowlMaker";
+import React, { useRef } from "react";
+import Home from "./Projects/Home";
+import Project1 from "./Projects/Project1/Main";
+import Brackets from "./Projects/Brackets/Brackets";
+import WaffleBowlMaker from "./Projects/WaffleBowlMaker/WaffleBowlMaker";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import AwesomeWritingPrompt from "./Projects/AwesomeWritingPrompt/AwesomeWritingPrompt";
 
-function App() {
+function App({ rolling }) {
   return (
     <Router basename="projects">
       <Switch>
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route path="/waffleBowlMaker">
           <WaffleBowlMaker />
+        </Route>
+        <Route path="/awesomeWritingPrompt">
+          <AwesomeWritingPrompt />
         </Route>
       </Switch>
     </Router>

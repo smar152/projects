@@ -15,6 +15,9 @@ function Home(props) {
         <li>
           <Link to="/waffleBowlMaker">Εδω οι καλές βάφλες</Link>
         </li>
+        <li>
+          <Link to="/awesomeWritingPrompt">Awesome Writing Prompt</Link>
+        </li>
       </ul>
     </div>
   );
